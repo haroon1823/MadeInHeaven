@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Singers</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+    background-color: azure;
+}
+     .menubar{
+        background:#041040;
+        text-align: center;
+    
+    }
+    
+    .menubar ul{
+        display:inline-flex;
+        color:#fff;
+        list-style:none;
+        z-index: 1;
+        
+    }
+    
+    .menubar ul li{
+        width:120px;
+        margin: 10px;
+        padding:15px;
+        color: darkgoldenrod;
+        z-index: 1;
+    
+    }
+    
+    .menubar ul li a
+    {
+        text-decoration: none;
+        color:darkgoldenrod;
+        font-size: 13px;
+        font-family:cursive;
+        font-weight: bold;
+    }
+    
+    .active ,.menubar ul li:hover{
+    background-color:aliceblue;
+    border-radius: 5px;
+        opacity:0.01px;
+    }
+    
+    .menubar .fa
+    {
+    margin-right:8px;
+    }
+    
+    .submenu1{
+        display: none;
+    }
+    
+    .menubar ul li:hover .submenu1
+      {
+            display: block;
+            position: absolute;
+            background:#041040;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        .menubar ul li:hover .submenu1 ul
+        {
+            display: block;
+            margin: 10px;
+        }
+        .menubar ul li:hover .submenu1 ul li
+        {
+         width: 150px;
+         padding: 10px;
+         border-bottom: 1px dotted white;
+         background: transparent;
+        }
+        .menubar ul li:hover .submenu1 ul li:last-child
+        {
+            border-bottom: none;
+        }
+        .menubar ul li:hover .submenu1 ul li a:hover
+        {
+            color:goldenrod;
+        }
+    .logo
+{
+    font-family:Rakkas;
+    color:goldenrod;
+    margin: 0;
+    padding:15px;
+    overflow: auto;
+    background-color:#041040;
+    font-size:55px;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+
+
+ }
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+    .footer{
+			  background-color: #173052;
+			  width: auto;
+			  text-align: left;
+			  font-family: sans-serif;
+			  font-weight: bold;
+			  font-size: 16px;
+			  padding-top: 50px;
+			  padding-bottom: 50px;
+			  margin-top: 50px;
+			  padding-left: 50px;
+              height:333px;
+		}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+.footer .about {
+  line-height: 20px;
+  color: rgba(0,0,0,0.6);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer .about span {
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+    font-family: Helvetica;
+}
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  color: darkgoldenrod;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+.footer .icons a:hover{
+  color: rgba(0,0,0,0.6); 
+  -webkit-transition:all ease 0.5s;
+}
+		.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  color: rgba(0,0,0,0.6);
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: cadetblue;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+    font-weight: :bold;
+  font-size: 14px;
+  line-height: 2;
+    color:darkgoldenrod;
+}
+
+.footer .footer-center p a {
+  color: #516682;
+  text-decoration: none;
+}
+.footer .footer-center p a:hover {
+  color: cadetblue;
+  -webkit-transition:all ease 0.5s;
+}
+		.footer .footer-right {
+  width: 35%;
+  margin-left: 2px;
+}
+.footer .footer-right b{
+  color: darkgoldenrod;
+  margin-left: -12px;
+  font-size: 20px;
+}
+ h2 {
+  color:;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: darkgoldenrod;
+}
+
+.footer .menu {
+  color: rgba(0,0,0,0.6);
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: block;
+  line-height: 1.8em;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.footer .menu a:hover {
+  color: skyblue;
+  -webkit-transition:all ease 0.5s;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: auto;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
+</style>
+<body>
+    <div class="logo">MadeInHeaven</div>
+        <hr>
+ <div class="menubar">
+
+    <ul>
+        <li class="aaa">
+            <a href="home.html">
+                <i class="fa fa-home"></i>
+
+                Home
+
+            </a>
+        </li>
+        <li>
+            <a href="weddingservices.html">
+
+                Wedding services
+
+            </a>
+        </li>
+        <li>
+            <a>
+
+                Vendors
+
+            </a>
+            <div class="submenu1">
+                <ul>
+                    <li>
+                        <a href="caterers.html">
+
+                            Caterers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="photographers.html">
+
+                            Photograhers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="makeupartists.html">
+
+                            Makeup Artists
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mehendiartists.html">
+
+                            Mehendi Artists
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a>
+
+                Artists
+
+            </a>
+            <div class="submenu1">
+                <ul>
+                    <li>
+                        <a href="dj.html">
+
+                            DJ's
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="singers.html">
+
+                            Singers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="dancers.html">
+
+                            Dancers and choreographers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="comedians.html">
+
+                            Comedians
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="decor.html">
+
+                Decor
+
+            </a>
+            <div class="submenu1">
+                <ul>
+                    <li>
+                        <a href="events.html">
+
+                            Decor by Event
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="destination.html">
+
+                            Decor by Destination
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="active">
+            <a href="venues.html">
+
+                Venues
+
+            </a>
+        </li>
+        <li>
+            <a href="aboutus.html">
+
+                About Us
+
+            </a>
+            <div class="submenu1">
+                <ul>
+                    <li>
+                        <a href="aboutus.html">
+
+                            About Us
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+
+                            Blog
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="contactus.html">
+                <i class="fa fa-phone"></i>
+
+                Contact Us
+
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<div class="main">
+    <h1><center><font size='18'> Singers</font></center></h1>
+
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+<img src="armaan.jpg">
+</div>
+<div class="title">
+<h1>
+Armaan Malik</h1>
+</div>
+<div class="des">
+<p>
+Armaan Malik is an Indian singer and actor. He mainly sings in Hindi films, but has also done various Indian languages. He also sang the title track of the Pakistani film "Jannan". A finalist on Zee Tv's Sa Re Ma Pa L'il Champs, Armaan advanced to eighth place with public votes. He is the brother of composer Amaal Mallik. previously represented by Universal Music India, and now signed on by T-Series. His first on-screen appearance was in the film Kaccha Limboo in the year 2011. He has also given his voice for famous songs which are in the movie 'M.S Dhoni-the untold story' and many more </p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+<img src="shirley.jpg">
+</div>
+<div class="title">
+<h1>
+Shirley Setia</h1>
+</div>
+<div class="des">
+<p>Shirley Setia is an Indo-Kiwi singer and performer hailing from Auckland, New Zealand. She is known for her YouTube videos where she performs on Hindi songs. She happens to be a University of Auckland graduate and has worked as publicity and marketing intern at Auckland Council. Her fame is a result of a happy incident. Indian music label T-Series organized a competition and Shirley, just for fun, recorded a video for a song in her bedroom, in her pyjamas. She ended up being one of the winners of the competition and this opened ways for her to take her talent to thousands of people and she started making and uploading more videos.
+</p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+<img src="atif.jpg">
+</div>
+<div class="title">
+<h1>
+Atif Aslam</h1>
+</div>
+<div class="des">
+<p>
+Atif Aslam is a Pakistani musician. He was born in Wazirabad, Gujranwala, Punjab, pakistan and educated in Lahore and Rawalpindi.
+
+Working together, the pair recorded the song Aadat. It became popular on different musical websites in Pakistan. The song was also played on such Pakistani radio stations as FM100 and FM105. The music video for Aadat was shot one day in a warehouse in Karachi. Due to personal problems in the band, Atif Aslam left Jal and became solo.
+</p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+<img src="neha.jpg">
+</div>
+<div class="title">
+<h1>
+Neha Kakkar</h1>
+</div>
+<div class="des">
+<p>
+Neha Kakkar is an Indian singer. She competed on season 2 of the television reality show Indian Idol in 2006 and was a judge on the tenth season of the same show i.e. Indian Idol 10. She also appeared in Comedy Circus Ke Taansen in 2014 on Sony TV. She had judged a singing reality show on Zee TV named Sa Re Ga Ma Pa L'il Champs.</p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+<img src="dhvani.jpg">
+</div>
+<div class="title">
+<h1>
+Dhvani Bhanushali</h1>
+</div>
+<div class="des">
+<p>
+Dhvani Bhanushali is an Indian singer. She is mostly known for her singing in "Dilbar",from the movie Satyameva Jayate. She started her music career with the song "Ishtehaar" from the film Welcome To New York. She also sang fomous songs like 'leja re' and 'vaaste' which crossed millions of views on youtube. </p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+<img src="adithya.png">
+</div>
+<div class="title">
+<h1>Adithya Narayan
+</h1>
+</div>
+<div class="des">
+<p>
+Aditya Narayan Jha is an Indian Playback Singer television host and Bollywood actor.Aditya Narayan comes from a musical family. His father is the playback singer Udit Narayan, and his mother Deepa Narayan Jha, his grandfather Hari Krishna Jha and his grandmother Bhuvaneshwari Jha are all musically inclined. Narayan released his second Hindi single on his birthday, 6 August titled "Tera Ishq Jee Paaun", starring Yoshika Verma, composed by Arijit Chakraborty and written by Manoj Yadav under the music label T-Series.</p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+<img src="darshan.jpg">
+</div>
+<div class="title">
+<h1>
+Darshan Raval</h1>
+</div>
+<div class="des">
+<p>
+Darshan Raval is an Indian playback singer, songwriter, composer and actor born in Ahmedabad, India.He first came to prominence as a contestant on the Indian reality show India's Raw Star. Although he received most votes throughout the season, he emerged as the 1st runner up. In the very beginning of 2019, Ek Ladki Ko Dekha Toh Aisa Laga's title track was sung by this Young talented guy, then comes another beautiful friendship song "Yaara Teri Yaari" from web-series Four More Shots Please! by Darshan Raval.</p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+<img src="himesh.jpg">
+</div>
+<div class="title">
+<h1>
+Himesh Reshammiya</h1>
+</div>
+<div class="des">
+<p>
+Himesh Reshammiya is an Indian actor, music director, lyricist, composer, producer, singer, screenwriter and film distributor who predominantly works in Bollywood film industry. As a singer, he has multiple popular songs such as "Aashiq Banaya Aapne", "Tera Suroor", "Zara Jhoom Jhoom", "Jhalak Dikhlaja", "Andaz Apna Apna", "Shakalaka Boom Boom", "Hookah Bar", "Chalao Na Naino Se" and "Tandoori Nights". Reshammiya's music has a style of composition based on a fusion of Western and Indian classical music, Western and Indian Rock music accompanied by techno beats. He started his acting career with his debut film, Aap Kaa Surroor. Reshammiya was the first Indian singer to perform at the Wembley Arena and the Heineken music hall in Amsterdam.</p>
+<a href='contactus.html'> <button>click here to get a quote</button></a>
+    
+</div>
+</div>
+</div>
+    <footer class="footer">
+  <div class="footer-left">
+      <h2> About the website</h2> <p class="about"><span>Realize your dream of having a spectacular wedding ceremony into reality with extravagant celebration and unforgettable memories. To do so, we, at MadeInHeaven, help you in creating an astounding decor of your choice, ranging from traditional to modern to outdoor to intimate to royal to beachy. Apart from impeccable decors, we also offer wedding services and wedding planning tools for smooth and simple operations. You can also find a curated list of handpicked professional artists to make your celebration filled with entertainment, ranging from music to dance to laughter. If you are looking for a fine destination for your wedding, we have maintained a detailed list of a variety of venues across the country. You can pick the most suitable one for a regal or natural or luxurious or traditional wedding. Making all of these facilities available to you at your fingertips, MadeInHeaven is a gateway to organizing your dream wedding.</span>
+    </p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>St.Joseph's College(Autonomous), 560027</span> Bengaluru, India</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> (+91) 734567789</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> MadeInHeaven@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right">
+    <b>Website Name</b>
+    <p class="menu">
+      <a href="home.html"> Home</a> 
+      <a href="#"> Services</a> 
+      <a href="venues.html"> Venues</a> 
+      <a href="decor.html"> Decor</a> 
+      <a href="artists.html"> Artists</a> 
+      <a href="vendors/html"> Vendors</a>
+      <a href="aboutus.html"> AboutUs</a>
+      <a href="form.html"> Contact</a>
+    </p>
+    <p class="name"> Website Name &Copyright: 2019</p>
+  </div>
+</footer>
+</body>
+</html>
+

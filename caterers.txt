@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>caterers</title>
+</head>
+<body>
+<center><h1>CATERERS</h1></center>
+<p>
+<h2><center><i>At made in heaven, find an elaborate showcase of over 500 wedding caterers who will plate up exotic and gorgeous looking delicacies at your wedding that would win hearts all over!</i></h2></center>
+<h3>Atmosfire by Barbeque Nation</h3>
+South Bangalore
+</br>
+<font color="red">400 onwards</font>
+<h3>Banquet</h3>
+South Bangalore
+</br>
+<font color="red">300 onwards</font>
+<h3>Yaazh</h3>
+Coimbatore
+</br>
+<font color="red">500 onwards</font>
+<h3>Greenapple's Food</h3>
+Coimbatore
+</br>
+<font color="red">150 onwards</font>
+<h3>Silver Spoon</h3>
+Kerala
+</br>
+<font color="red">150 onwards</font>
+<h3>Top Caterers</h3>
+Kerala
+</br>
+<font color="red">130 onwards</font>
+<h3>Gowjee events</h3>
+Mangalore
+</br>
+<font color="red">150 onwards</font>
+<h3>Sea Pearl Caterers</h3>
+Mangalore</br>
+<font color="red">250 onwards</font>
+<strong>
+Questions to ask when choosing a caterer -
+</br>
+<h3>What services are included and not included-</h3> Some caterers may not include services like cutting and serving the cake, or providing coffee service, etc that can enhance your guests’ experience.
+</br>
+<h3>What is the server-to-guest ratio - </h3>This will help you understand how readily food and snacks would be available to your guests, whether there will be enough servers to take care of the guests demands, how quickly the plates are being cleared, etc.
+</br>
+<h3>Have you catered a previous event at my venue -</h3> Having a prior experience gives an edge to the wedding food caterer, who would already have an idea of his setup and plating at the venue and how many servers would be needed, amongst other things.
+</br>
+<h3>Where will the food be made -</h3> Enquire if the food would be cooked at their kitchen or would they be prepping up the food at their kitchen but cooking it on-site.
+</br>
+<h3>Where will the food be made -</h3> Enquire if the food would be cooked at their kitchen or would they be prepping up the food at their kitchen but cooking it on-site.
+</br>
+<h3>How many weddings have you catered to -</h3> Knowing whether your caterer has significant experience would assure you of top class service.
+</br>
+<h3>When can I come for the tasting -</h3> Do not book a catering service only by looking at their portfolio. Make sure you arrange for a tasting and address all your questions upon it.
+</br>
+<h3>How can Made in heaven help -</h3>
+We host information about a combination of wedding vendors who can bring your dream of a extravagant wedding come alive! Whether you are looking for exotic, international cuisines or wish to organize a combination of feasts for your guest, you will find a variety of wedding catering vendors on the portal.
+</br>
+<h3>And the best part -</h3> you can directly get in touch with your shortlisted vendors by the contact details available on their profiles, without any third-party intervention! At Made in heaven, we strive to make sure you choose a highly rated caterer by looking at their portfolio and reading reviews by their previous clients.
+</strong>
+</p>
+</body>
+</html>

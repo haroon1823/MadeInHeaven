@@ -1,0 +1,35 @@
+<html>
+<head>
+<title><artists></title>
+</head>
+<body>
+<center><h1>ARTISTS</h1></center>
+<marquee><font color="red">WELCOME TO MADE IN HEAVEN</font></marquee>
+<p><h1><center><i>Add essence to your wedding with outstanding performance by talented artists</i></center></h1></p>
+<ul>
+<li><a href="bands.html">bands</li></a>
+<li><a href="comedians.html">comedians</li></a>
+<li><a href="DJs.html">DJs</li></a>
+<li><a href="dance-troup.html">dance troup and choreographers</li></a>
+<li><a href="emcees.html">emcees</li></a>
+<li><a href="singers.html">singers</li></a>
+</ul>
+<center>
+
+<p>
+<h2><b><font color="blue">BANDS</font></h2></b>
+<h2><b>Lets bring some joy to the wedding!!</h2></b>
+<img src="b.jpg" width="550 height="550">
+<h2><b><font color="blue">COMEDIANS</font></h2></b>
+<img src="c.jpg" width="550 height="550">
+<h2><b><font color="blue">DANCE TROUP AND  CHOREOGRAPHERS</font></h2></b>
+<img src="d.jpg" width="550 height="550">
+<h2><b><font color="blue">EMCEES</font></h2></b>
+<img src="e.jpg" width="550 height="550">
+<h2><b><font color="blue">SINGERS</font></h2></b>
+<img src="s.jpg" width="550 height="550">
+</p>
+</center>
+
+</body>
+</html>

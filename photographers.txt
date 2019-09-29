@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Untitled document</title>
+
+</head>
+<body background="1.jpg" >
+<center><h1><i>PHOTOGRAPHERS</i></h1></center>
+<p>
+<h3><i><center>YAY!!! So finally, you are getting married. Wedding is a huge celebration and it must be documented in the best way possible. Your wedding photographer should be the one whose style impresses and connects with you the most. You must choose nothing less than the best for your wedding.</i></center></h3>
+</br>
+<img src="https://image.wedmegood.com/resized/1000X/uploads/vendor_cover_pic/1171/86110fd6-a468-4d32-867a-b7acc0c841ad.png" height="550" width="550">
+<h3>Parul and ankur kaushal potography</h2>
+South Bangalore
+</br>
+<font><color="pink">1,00,000 per day </font>
+<h2><center>Points to consider when booking your wedding photographer</center></h2>
+<h2>Style of photography:</h2>
+ Don’t just book any random photographer, select the wedding photographer whose style of photography is very similar to your personal style. Ask your professional photographer to click pictures in different styles such as traditional shots, candid pictures, black and white and bridal shots.</br>
+<h2>Availability: </h2>
+Once you have decided the professional photographer whom you think are best to cover your wedding, it is important to book them as early as possible because wedding photographers get booked well in advance. Also make sure they are available for all the days you require them to shoot your pre-wedding and wedding functions.</br>
+Budget: There are a bunch of wedding photographers for different budget ranges. You can easily filter on WedMeGood from different budget ranges and choose the best one that fits well within your budget. Keep aside a good budget for your wedding photographer and never compromise on the same.</br>
+<h2>Experience:</h2>
+ Always make sure that you check the previous work of the selected wedding photographer. WedMeGood has a huge gallery of photos and different albums on each vendor profile, you can go through various albums of any many photographer and then make a decision regarding the same. Any experienced and professional cinematographer can easily work in low light and is able to click pictures from all angles without making people conscious.</br>
+Ratings and reviews: Ensure that you check the ratings and reviews by the previous customer of any vendor before finally deciding about your wedding photographer. WedMeGood helps you to filter any vendor as per their average ratings. Reviews help any customer to make a wise decision regarding their booking. 
+</p>
+</body>
+</html>

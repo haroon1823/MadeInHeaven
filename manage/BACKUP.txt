@@ -1,0 +1,60 @@
+<img src="udaipur1.jpg" title="Hello"  width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+
+<center><div class="row"></center> 
+<div class="column">
+
+<a href="default.asp">
+<img src="udaipur1.jpg" title="UDAIPUR" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+
+</a>
+</div>
+</div>
+<div class="column">
+<a href="default.asp">
+<img src="jodhpur2.jpg"title="JODHPUR" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+<div class="column">
+<a href="default.asp">
+<img src="jaipur1.jpg" title="JAIPUR" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+</div>
+<center><div class="row"></center> 
+<div class="column">
+<a href="default.asp">
+<img src="goa1.jpg"title="GOA" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+<div class="column">
+<a href="default.asp">
+<img src="goa2.jpg"title="GOA" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+<div class="column">
+<a href="default.asp">
+<img src="udaipur1.jpg"title="GOA" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+</div>
+<center><div class="row"></center> 
+<div class="column">
+<a href="default.asp">
+<img src="udaipur1.jpg" title="UDAIPUR" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+<div class="column">
+<a href="default.asp">
+<img src="jodhpur2.jpg"title="JODHPUR" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+<div class="column">
+<a href="default.asp">
+<img src="jaipur1.jpg"title="JAIPUR" width:-5 height=300 padding:5px style="width:305px; padding-left: 75px;padding-top: 50px;"/>
+</a>
+</div>
+</div>
+
+
+
+

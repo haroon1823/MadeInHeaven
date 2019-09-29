@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>DJ's</title>
+</head>
+<body>
+<center><i><h1>DJ's</h1></i></center>
+<p>
+<center><i><h2>What’s a wedding without a good DJ? They set the mood and get the guests grooving and make the party happen! Your wedding is going to be incomplete without a wedding DJ and that’s where made in heaven comes into play! At MIN, you can find the best, and one of the most popular DJs that fit well within your budget for your wedding!</i></h2></center>
+<h3>DJ Praash</h3>
+Kerala</br>
+<font color="red">25,000 onwards</font>
+<h3>DJ Strwaz</h3>
+Kerala</br>
+<font color="red">23,000 onwards</font>
+<h3>DJ asish</h3>
+Coimbatore</br>
+<font color="red">10,000 onwards</font>
+<h3>Dj Anjelo</h3>
+Coimbatore</br>
+<font color="red">20,000 onwards</font>
+<h3>DJ Clinton</h3>
+Mangalore</br>
+<font color="red">15,000 onwards</font>
+<h3>DJ Toxic</h3>
+Mangalore</br>
+<font color="red">20,000 onwards</font>
+<h3>DJ Shine</h3>
+Bangalore</br>
+<font color="red">20,00 onwards</font>
+<h3>DJ jasmeet</h3>
+Bangalore</br>
+<font color="red">50,000 onwards</font>
+<h3>How to recognize a good DJ?</h3>
+A good DJ will know a lot about different genres of music and will have a huge selection of music at their fingertips.
+He/she can read the crowd’s mood and change music in a way to keep them dancing and enjoying through the night.
+He/she can handle any technical issues, if they arise and will know how to adjust the volume levels between speakers, music and microphones, whenever somebody is making an announcement.
+
+<h3>Why should I book a DJ from Made in heaven?</h3>
+The DJs listed on made in heaven are among the ones who are most popular and top rated in India.
+Most of these DJs have undergone formal training and are certified in their art.
+They have previous experiences and have accompanied various famous artists to parties, gigs, and shows across India on a personal and professional level.
+
+</p>
+</body>
+</html>

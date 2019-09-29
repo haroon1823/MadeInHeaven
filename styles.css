@@ -1,0 +1,83 @@
+*{ 
+margin:50;
+padding:50;
+box-sizing:border-box;
+outline:none;
+font-family:'Roboto', sans-serif;
+}
+body{
+background:url("https://i.pinimg.com/originals/9c/5e/77/9c5e77841c30ebf2d0a415af72f03f53.jpg");
+background-size:cover;
+height:100vh;
+}
+.wrapper{
+margin-left:300px;
+position:center;
+top:100%;
+transform:translate(-50%);
+width:100%;
+padding:80px;
+}
+.contact-form{
+float:right;
+padding-left:170px;
+margin-top:500px;
+position:center;
+display:flex;
+max-width:550px;
+margin:0 auto;
+background:transparent;
+height:370px;
+padding:30px;
+border-radius:5px;
+box-shadow: 0 0 10px rgba(0,0,0,0,3);
+}
+.input-fields, .msg{
+width:48%;
+}
+.input-fields .input, .msg textarea{
+position:center;
+margin:10px 0;
+background:transparent;
+border:0px;
+border-bottom:2px solid #c5ecfd;
+padding:10px;
+color:black;
+width:100%;
+}
+.msg textarea{
+height:270px;
+}
+::-webkit-input-placeholder{
+?*Chrome/Opera/Safari*/
+color:#c5ecfd;
+}
+.contact-form input[type="SUBMIT"]
+{
+border:none;
+outline:none;
+height:40px;
+width:120px:
+background-color:black;
+color:#fff;
+font-size:15px;
+border-radius:50px;
+}
+.contact-form input[type="SUBMIT"]:hover
+{
+cursor:pointer;
+background:#ffc107;
+color:#000;
+}
+@media screen and (max-width:600px){
+.contact-form{
+flex-direction:column;
+}
+.msg textarea{
+height:80px;
+}
+.input-fields, .msg{
+width:100;
+}
+}
+

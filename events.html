@@ -1,0 +1,439 @@
+<html>
+    <title>Decor by events</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+        *{
+        padding: 0;
+        margin: 0;
+    
+    }
+		  body {
+	    background: #fff;
+	    width: 100%;
+	    height: 500px;
+              box-sizing: border-box;
+              background-color: azure;
+}
+          h1{
+            border-color: crimson;
+            text-decoration: underline;
+            font-size: 40px;
+            font-style: normal;
+            text-align: center;
+            color:darkkhaki;
+            
+        }
+        marquee{
+            color: darkorange;
+            font-size: 20;
+        }
+             
+        .part2{
+            text-align: center;
+            font-style: oblique;
+            padding: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: 30px;
+            line-height: 1.2;
+            font-weight: 500;
+        }
+        .part1{
+            color:coral;
+            text-decoration:underline;
+        }
+        img{
+            padding: 10px;
+          
+        }
+        .part{
+            font-display:optional;
+            font-size: 25px;
+            font-style: oblique;
+            margin:30px;
+        }
+         .menubar{
+        background:#041040;
+        text-align: center;
+             width: auto;
+             padding-top: 0px;
+    
+    }
+    
+    .menubar ul{
+        display:inline-flex;
+        color:#fff;
+        list-style:none;
+        z-index: 1;
+        margin: 0;
+        margin-left: -35px;
+        
+    }
+    
+    .menubar ul li{
+        width:120px;
+        margin: 10px;
+        padding:15px;
+        color: darkgoldenrod;
+        z-index: 1;
+    
+    }
+    
+    .menubar ul li a
+    {
+        text-decoration: none;
+        color:darkgoldenrod;
+        font-size: 13px;
+        font-family:cursive;
+        font-weight: bold;
+    }
+    
+    .active ,.menubar ul li:hover{
+    background-color:aliceblue;
+    border-radius: 5px;
+        opacity:0.01px;
+    }
+    
+    .menubar .fa
+    {
+    margin-right:8px;
+    }
+    
+    .submenu1{
+        display: none;
+    }
+    
+    .menubar ul li:hover .submenu1
+      {
+            display: block;
+            position: absolute;
+            background:#041040;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        .menubar ul li:hover .submenu1 ul
+        {
+            display: block;
+            margin: 10px;
+        }
+        .menubar ul li:hover .submenu1 ul li
+        {
+         width: 150px;
+         padding: 10px;
+         border-bottom: 1px dotted white;
+         background: transparent;
+        }
+        .menubar ul li:hover .submenu1 ul li:last-child
+        {
+            border-bottom: none;
+        }
+        .menubar ul li:hover .submenu1 ul li a:hover
+        {
+            color:goldenrod;
+        }
+    .logo
+{
+    font-family:Rakkas;
+    color:goldenrod;
+    margin: 0;
+    padding:15px;
+    overflow: auto;
+    background-color:#041040;
+    font-size:55px;
+}
+		.footer{
+			  background-color: #173052;
+			  width: auto;
+			  text-align: left;
+			  font-family: sans-serif;
+			  font-weight: bold;
+			  font-size: 16px;
+			  padding-top: 50px;
+			  padding-bottom: 50px;
+			  margin-top: 50px;
+			  padding-left: 50px;
+              height:333px;
+		}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+.footer .about {
+  line-height: 20px;
+  color: rgba(0,0,0,0.6);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer .about span {
+  display: block;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+    font-family: Helvetica;
+}
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  color: darkgoldenrod;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+.footer .icons a:hover{
+  color: rgba(0,0,0,0.6); 
+  -webkit-transition:all ease 0.5s;
+}
+		.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  color: rgba(0,0,0,0.6);
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: cadetblue;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+    font-weight: :bold;
+  font-size: 14px;
+  line-height: 2;
+    color:darkgoldenrod;
+}
+
+.footer .footer-center p a {
+  color: #516682;
+  text-decoration: none;
+}
+.footer .footer-center p a:hover {
+  color: cadetblue;
+  -webkit-transition:all ease 0.5s;
+}
+		.footer .footer-right {
+  width: 35%;
+  margin-left: 2px;
+}
+.footer .footer-right b{
+  color: darkgoldenrod;
+  margin-left: -12px;
+  font-size: 20px;
+}
+ h2 {
+  color:;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: darkgoldenrod;
+}
+
+.footer .menu {
+  color: rgba(0,0,0,0.6);
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: block;
+  line-height: 1.8em;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.footer .menu a:hover {
+  color: skyblue;
+  -webkit-transition:all ease 0.5s;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: auto;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+        img{
+            float: left; 
+            margin-right: 10px;
+            margin-bottom: 5px; 
+            border: solid black 1px; 
+            padding: 2px; 
+            border-radius: 50%; 
+        }
+	</style>
+    <body background="bg1.jpg">
+        
+         <div class="logo">MadeInHeaven</div>
+        <hr>
+  <div class=menubar>
+    <ul>
+            <li ><a href="home.html"><i class="fa fa-home"></i>Home</a></li>
+
+
+            <li><a href="weddingservices.html">Wedding services</a></li>
+            <li><a>Vendors</a>
+            <div class="submenu1">
+                <ul>
+                    <li><a href="caterers.html">Caterers</a></li>
+                    <li><a href="photographers.html">Photograhers</a></li>
+                    <li><a href="makeupartist.html">Makeup Artists</a></li>
+                    <li><a href="mehendiartist.html">Mehendi Artists</a></li>
+                </ul>
+            </div>
+        </li>
+  
+            <li><a>Artists</a>
+                <div class="submenu1">
+                    <ul>
+                       
+                        <li><a href="dj.html">DJ's</a></li>
+                        <li><a href="singers.html">Singers</a></li>
+                        <li><a href="dancers.html">Dancers and Choreographers</a></li>
+                        <li><a href="comedians.html">Comedians</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="active"><a href="decor.html">Decor</a>
+                <div class="submenu1">
+                    <ul>
+                        
+                        <li><a href="events.html">Decor by Event</a></li>
+                        <li><a href="destination.html">Decor by Destination</a></li>
+                    </ul>
+                </div></li>
+
+            <li><a href="venues.html">Venues</a></li>
+            <li><a href="aboutus.html">About Us</a><div class="submenu1">
+              <ul>
+               
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+          
+              </ul>
+          </div></li>
+            <li><a href="contactus.html"><i class="fa fa-phone"></i>Contact Us</a></li>
+           
+            
+        </ul>
+       </div>
+        <strong>
+            <center><h1>WEDDING EVENTS DECOR</h1></center>
+            <p class="part">Whether it is a day-time Mehendi function or a Sangeet party in the evening, there is one aspect that can make any wedding event magical - the Wedding Decoration! That’s is why, we offer our guests with contemporary yet elegant wedding decor and lighting ideas, matching best with the theme of their event. Whether it’s a Haldi or an engagement party, a cocktail or an after party, our wide selection of theme and wedding event décor ideas will definitely make your event more memorable.</p><br>
+             <img src="mehendi1.jpg" height="500" width="700" ><br>
+            <em><center><h2 class="part1">MEHENDI</h2></center></em>
+            <center><p class="part2">The Mehendi ceremony holds a special value and significance in wedding functions. This family affair is often the most fun and colorful of all functions with themes ranging from Aztec to kitschy to pastel hued.</p></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                 <img src="reception1.jpg" height="500" width="700" style="float: right; margin-right: 10px; margin-bottom: 5px; border: solid black 1px; padding: 2px"><br>
+            <em><center><h2 class="part1">RECEPTION</h2></center></em>
+            <center><p class="part2">The grand wedding celebrations come to an end with a gorgeous wedding reception. You can opt for themes such as floral extravaganza, cherry blossom, or a classic vintage chic theme for your ceremony.</p></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+             <img src="sangeet.jpg" height="500" width="700" style="float: left; margin-right: 10px; margin-bottom: 5px; border: solid black 1px; padding: 2px"><br>
+            <em><center><h2 class="part1">SANGEET</h2></center></em>
+            <center><p class="part2">A fun night before all the wedding festivities begin! DreamzKrraft creates elaborate and extravagant décor for your Sangeet venue. With themes such as Bollywood night, pop art luxe theme, carnival theme and enchanting forest, this is a night the guests will cherish forever!</p></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+             <img src="wedding.jpg" height="500" width="700" style="float: right; margin-right: 10px; margin-bottom: 5px; border: solid black 1px; padding: 2px"><br>
+            <em><center><h2 class="part1">WEDDING</h2></center></em>
+            <center><p class="part2">A wedding is the most intimate affair of one’s life. We help you perfect your beautiful moments for a priceless memory. From a traditional red theme, a royal elegant theme to an elaborate Jodha Akbar theme, each aspect is planned to the smallest of details.</p></center><br><br><br><br><br><br><br><br><br><br><br><br><br>
+             <img src="afterparty.jpg" height="500" width="700" style="float: left; margin-right: 10px; margin-bottom: 5px; border: solid black 1px; padding: 2px"><br>
+            <em><center><h2 class="part1">AFTER PARTY</h2></center></em>
+            <center><p class="part2">After parties are a major trend of today. Over the top themes like Psychedelic Cirque to a Bombay Adda Theme upscale the vibe of the entire venue!</p></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+             <img src="engagement.jpg" height="500" width="700" style="float: right; margin-right: 10px; margin-bottom: 5px; border: solid black 1px; padding: 2px"><br>
+            <em><center><h2 class="part1">ENGAGEMENT</h2></center></em>
+            <center><p class="part2">A dreamy engagement ceremony is the perfect pre-wedding function you need. This function sets the tone for the rest of the wedding festivities.</p></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <img src="poolparty.jpg" height="500" width="700" style="float: left; margin-right: 10px; margin-bottom: 5px; border: solid black 1px; padding: 2px"><br>
+            <em><center><h2 class="part1">POOL PARTY</h2></center></em>
+            <center><p class="part2">A fun way to kick start the wedding festivities! An epic pool party bash adds excitement, thrill and fun to your soiree. With the perfect blend of mouth-watering food, lively foot-tapping music, you can never go wrong on your wedding pool party!</p></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <img src="themedbrunch.jpeg" height="500" width="700" style="float: right; margin-right: 10px; margin-bottom: 5px; border: solid black 1px; padding: 2px"><br>
+            <em><center><h2 class="part1">THEMED BRUNCH</h2></center></em>
+            <center><p class="part2">Add a classic touch to your wedding celebrations with a polo match themed brunch. A unique concept that will leave all your guests with an unforgettable experience. An Italian Riviera inspired brunch to set the tone to your wedding celebrations is all you need!</p></center><br><br>
+            
+            <em><marquee>Hope you enjoyed the decor. Drop a mail at MadeInHeaven@gmail.com and stay connected with us.</marquee></em>
+            <footer class="footer">
+  <div class="footer-left">
+      <h2> About the website</h2> <p class="about"><span>Realize your dream of having a spectacular wedding ceremony into reality with extravagant celebration and unforgettable memories. To do so, we, at MadeInHeaven, help you in creating an astounding decor of your choice, ranging from traditional to modern to outdoor to intimate to royal to beachy. Apart from impeccable decors, we also offer wedding services and wedding planning tools for smooth and simple operations. You can also find a curated list of handpicked professional artists to make your celebration filled with entertainment, ranging from music to dance to laughter. If you are looking for a fine destination for your wedding, we have maintained a detailed list of a variety of venues across the country. You can pick the most suitable one for a regal or natural or luxurious or traditional wedding. Making all of these facilities available to you at your fingertips, MadeInHeaven is a gateway to organizing your dream wedding.</span>
+    </p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>St.Joseph's College(Autonomous), 560027</span> Bengaluru, India</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> (+91) 734567789</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> MadeInHeaven@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right">
+    <b>Website Name</b>
+    <p class="menu">
+      <a href="home.html"> Home</a> 
+      <a href="weddingservices.html"> Services</a> 
+      <a href="venues.html"> Venues</a> 
+      <a href="decor.html"> Decor</a> 
+      <a href="artists.html"> Artists</a> 
+      <a href="vendors/html"> Vendors</a>
+      <a href="aboutus.html"> AboutUs</a>
+      <a href="contactus.html"> Contact</a>
+    </p>
+    <p class="name"> Website Name &Copyright: 2019</p>
+  </div>
+</footer>
+        </strong>
+    </body>
+</html>

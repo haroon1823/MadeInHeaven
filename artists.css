@@ -1,0 +1,117 @@
+*{
+	margin:0;
+}
+body{
+	background:url("bg5.jpg");
+	background-attachment:fixed;
+	padding-top:20;
+	margin-left:10;
+	margin-right:10;
+}
+.menubar{
+    background: black;
+    text-align: center;
+
+}
+
+.menubar ul{
+    display:inline-flex;
+    color: #fff;
+    list-style:none;
+    
+}
+
+.menubar ul li{
+    width:120px;
+    margin: 10px;
+    padding:15px;
+
+}
+
+.menubar ul li a
+{
+    text-decoration: none;
+    color:white;
+}
+
+ .menubar ul li:hover{
+background: transparent;
+border-radius: 5px;
+}
+.menubar .fa
+{
+margin-right:8px;
+}
+
+.submenu1{
+    display: none;
+}
+
+.menubar ul li:hover .submenu1
+  {
+        display: block;
+        position: absolute;
+        background:grey;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    .menubar ul li:hover .submenu1 ul
+    {
+        display: block;
+        margin: 10px;
+    }
+	.menubar .fa
+{
+margin-right:8px;
+}
+
+.submenu1{
+    display: none;
+}
+
+.menubar ul li:hover .submenu1
+  {
+        display: block;
+        position: absolute;
+        background:grey;
+        margin-top: 15px;
+        margin-left: -15px;
+    }
+    .menubar ul li:hover .submenu1 ul
+    {
+        display: block;
+        margin: 10px;
+    }
+ul li {
+	text-decoration:none;
+display:flex;
+font-size:20px;
+color:white;
+font-weight:bold;
+padding:40px;
+display:inline;
+text-transform:uppercase;
+text-shadow:3px 3px black;
+}
+ul li a{
+	color:white;
+	text-decoration:none;
+}
+.b{
+	padding:40px 30px;
+	
+}
+.c{
+	padding:40px 30px;
+}
+.d{
+	padding:40px 30px;
+}
+.e{
+	padding:40px 30px;
+}
+.s{
+	padding:40px 30px;
+}
+
+

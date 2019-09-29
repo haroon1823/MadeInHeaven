@@ -1,0 +1,35 @@
+<html>
+<head>
+<title><vendors></title>
+</head>
+<body bgcolor="orange" >
+<center><h1>VENDORS</h1></center>
+<marquee><font color="blue"><b>WELCOME TO MADE IN HEAVEN</font></b></marquee>
+<center><p>
+<h3><i>Drawing inspiration from your love and passion,our vendors develop a charming and captivating creation,especially for your special day
+</i></h3></p></center>
+<ul>
+<li><a href="caterers.html">Caterers</li></a>
+<li><a href="makeup.html">Makeup artists</li></a>
+<li><a href="mahendi.html">Mahendi artists</li></a>
+<li><a href="photographers.html">Photographers</li></a>
+</ul>
+<p>
+<center>
+<h2><b><font color="green">CATERERS</font></b></h2>
+<h2><b>Our Catering is more than just an event</b></h2>
+<img src="4c.jpg"  width="550" height="550" />
+<h2><b><font color="green">MAKEUP</font></b></h2>
+<b><h2>Beautifull inside and out</h2></b>
+<img src="4ma.jpg"  width="550" height="550" />
+<b><h2><font color="green">MAHENDI</font></b></h2>
+<b><h2>"chemicals in mehandi leads to its dark colour.."everyone said..</br>but deep inside her  she believes </br> it is only the essence of his love!!</h2></b>
+<img src="3m.jpg" alt="mahendi" width="550" height="550" />
+<b><h2><font color="green">PHOTOGRAPHERS</font></b></h2>
+<b><h2>Give your photographer some time on your wedding day and trust us it will pay off!!</h2></b>
+<img src="2p.jpg" alt="photographers" width="550" height="550" />
+</center>
+</p>
+
+</body>
+</html>
