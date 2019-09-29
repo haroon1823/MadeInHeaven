@@ -1,0 +1,598 @@
+
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>home</title>
+            <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+            <style>
+
+                body, html {
+background-color:beige;
+                  font-size: 15px;
+                  line-height: 1.6;
+                  color: #222;
+                  margin: 0px;
+                  font-family:cursive;
+                  box-sizing: border-box;
+                  height: 100%;
+                  font: 400 15px/1.8 "Lato", sans-serif;
+                  color: #777;
+                }
+
+                .bgimg-1, .bgimg-2, .bgimg-3 {
+                  position: relative;
+                  opacity: 0.95;
+                  background-attachment: fixed;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+
+                }
+                .bgimg-1 {
+                  background-image: url("taj4.jpg");
+                  min-height: 100%;
+                }
+
+                .bgimg-2 {
+                  background-image: url("9.jpg");
+                  min-height: 400px;
+                }
+
+                .bgimg-3 {
+                  background-image: url("le3.jpg");
+                  min-height: 400px;
+                }
+
+                .caption {
+                  position: absolute;
+                  left: 0;
+                  top: 50%;
+                  width: 100%;
+                  text-align: center;
+                  color: #000;
+                }
+
+                .caption span.border {
+                  background-color: #111;
+                  color: #fff;
+                  padding:10px;
+                  padding-top:-10px;
+                  font-size: 25px;
+                  letter-spacing: 5px;
+                }
+
+                h3 {
+                  letter-spacing: 5px;
+                  text-transform: uppercase;
+                  font: 20px "Lato", sans-serif;
+                  color: #111;
+                }
+                p {
+                 font-size:20px;}
+
+                /* Turn off parallax scrolling for tablets and phones */
+                @media only screen and (max-device-width: 1024px) {
+                  .bgimg-1, .bgimg-2, .bgimg-3 {
+                    background-attachment: scroll;
+                  }
+                }
+                 *{
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+    body{
+        box-sizing: border-box;
+        background-color: azure;
+    }
+    
+    .menubar{
+        background:#041040;
+        text-align: center;
+    
+    }
+    
+    .menubar ul{
+        display:inline-flex;
+        color:#fff;
+        list-style:none;
+        z-index: 1;
+        
+    }
+    
+    .menubar ul li{
+        width:170px;
+        padding:10px;
+        margin: 30px;
+        color: darkgoldenrod;
+        z-index: 1;
+    
+    }
+    
+    .menubar ul li a
+    {
+        text-decoration: none;
+        color:darkgoldenrod;
+        font-size: 18px;
+        font-family:cursive;
+        font-weight: bold;
+    }
+    
+    .active ,.menubar ul li:hover{
+    background-color:aliceblue;
+    border-radius: 5px;
+        opacity:0.01px;
+    }
+    
+    .menubar .fa
+    {
+    margin-right:8px;
+    }
+    
+    .submenu1{
+        display: none;
+    }
+    
+    .menubar ul li:hover .submenu1
+      {
+            display: block;
+            position: absolute;
+            background:#041040;
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        .menubar ul li:hover .submenu1 ul
+        {
+            display: block;
+            margin: 10px;
+        }
+        .menubar ul li:hover .submenu1 ul li
+        {
+         width: 150px;
+         padding: 10px;
+         border-bottom: 1px dotted white;
+         background: transparent;
+        }
+        .menubar ul li:hover .submenu1 ul li:last-child
+        {
+            border-bottom: none;
+        }
+        .menubar ul li:hover .submenu1 ul li a:hover
+        {
+            color:goldenrod;
+        }
+    .logo
+{
+    font-family:Rakkas;
+    color:goldenrod;
+    margin: 0;
+    padding:10px;
+    overflow: auto;
+    background-color:#041040;
+    font-size:55px;
+}
+                 .footer{
+			  background-color: #173052;
+			  width: auto;
+			  text-align: left;
+			  font-family: sans-serif;
+			  font-weight: bold;
+			  font-size: 16px;
+			  padding-top: 50px;
+			  padding-bottom: 50px;
+			  margin-top: 50px;
+			  padding-left: 50px;
+              height:333px;
+		}
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+.footer .about {
+  line-height: 20px;
+  color: rgba(0,0,0,0.6);
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer .about span {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+    font-family: Helvetica;
+}
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  color: darkgoldenrod;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+.footer .icons a:hover{
+  color: rgba(0,0,0,0.6); 
+  -webkit-transition:all ease 0.5s;
+}
+		.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  color: rgba(0,0,0,0.6);
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: cadetblue;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+    font-weight: :bold;
+  font-size: 14px;
+  line-height: 2;
+    color:darkgoldenrod;
+}
+
+.footer .footer-center p a {
+  color: #516682;
+  text-decoration: none;
+}
+.footer .footer-center p a:hover {
+  color: cadetblue;
+  -webkit-transition:all ease 0.5s;
+}
+		.footer .footer-right {
+  width: 35%;
+  margin-left: 2px;
+}
+.footer .footer-right b{
+  color: darkgoldenrod;
+  margin-left: -12px;
+  font-size: 20px;
+}
+ h2 {
+  color:;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: darkgoldenrod;
+}
+
+.footer .menu {
+  color: rgba(0,0,0,0.6);
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: block;
+  line-height: 1.8em;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+.footer .menu a:hover {
+  color: skyblue;
+  -webkit-transition:all ease 0.5s;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: auto;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+            </style>
+        </head>
+        <body>
+            <div class="logo">MadeInHeaven</div>
+        <hr>
+             <div class="menubar">
+
+    <ul>
+        <li class="active">
+            <a href="home.html">
+                <i class="fa fa-home"></i>
+
+                Home
+
+            </a>
+        </li>
+        <li>
+            <a href="weddingservices.html">
+
+                Wedding-services
+
+            </a>
+        </li>
+        <li>
+            <a>
+
+                Vendors
+
+            </a>
+            <div class="submenu1">
+                <ul>
+                    <li>
+                        <a href="caterers.html">
+
+                            Caterers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="photographers.html">
+
+                            Photograhers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="makeupartists.html">
+
+                            Makeup Artists
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mehendiartists.html">
+
+                            Mehendi Artists
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a>
+
+                Artists
+            </a>
+            
+            <div class="submenu1">
+                <ul>
+                    <li>
+                        <a href="dj.html">
+
+                            DJ's
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="dancers.html">
+
+                            Dancers and Choreographers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="singers.html">
+
+                            Singers
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="comedians.html">
+
+                            Comedians
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="decor.html">
+
+                Decor
+
+            </a>
+            <div class="submenu1">
+                <ul>
+                    <li>
+                        <a href="events.html">
+
+                            Decor by Event
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="destination.html">
+
+                            Decor by Destination
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="venues.html">
+
+                Venues
+
+            </a>
+        </li>
+        <li>
+            <a href="aboutus.html">
+
+                About Us
+
+            </a>
+        
+        </li>
+        <li>
+            <a href="form.html">
+                <i class="fa fa-phone"></i>
+
+                Contact Us
+
+            </a>
+        </li>
+    </ul>
+
+</div>
+            <div class="bgimg-1">
+                <div class="caption">
+                    <span class="border">
+
+                        MadeInHeaven
+
+                    </span>
+                </div>
+            </div>
+            <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+                <h3 style="text-align:center;">
+
+                    <h1>Weddings With MadeInHeaven</h1>
+                    <p style="font-size: 10">As you begin your journey of marriage, we, at MadeInHeaven, ensure that we transform your imagination of a dream wedding into a spectacular
+                                                 celebration. Orchestrating every detail with finesse,
+                    we craft an astounding wedding of your choice â€“ extravagant or intimate, royal or traditional, you think of it and we make it happen. 
+                        MadeInHeaven leaves no stone unturned, from fixing venues to designing dÃ©cor in order to curate a remarkable wedding experience!</p>
+                    </h3>
+            </div>
+            <div class="bgimg-2">
+                <div class="caption">
+                    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">
+
+                       Adorn metallic and decorative structures with floral accents intertwined all over for a traditionally elegant look.
+                       Jazz it up with tiny floral danglers along the metallic rim to evoke a feeling of a ceremonious wedding celebration. 
+
+                    </span>
+                </div>
+            </div>
+            <div style="position:relative;">
+                <div style="color:#ddd;background-color:grey;text-align:center;padding:50px 80px;text-align: justify;">
+                    <p style="font-size: 20">
+
+                       Put up a breathtaking show of celebration for your dream wedding with a grand stage décor complemented with colorful lighting combinations.
+                        Add an enchanting vibe with rustic chandeliers and decorative patterns of lights.
+
+                    </p>
+                </div>
+            </div>
+            <div class="bgimg-3">
+                <div class="caption">
+                    <span class="border" style="background-color:transparent;font-size:25px;color:black;">
+
+                       Glam up your wedding space with a bright and elegant crystal chandelier adorned with charming floral accents.
+                       Accentuate the décor by jazzing it up with dripping crystals on all sides of the chandelier.
+
+                    </span>
+                </div>
+            </div>
+            <div style="position:relative;">
+                <div style="color:#ddd;background-color:grey;text-align:center;padding:50px 80px;text-align: justify;">
+                    <p>
+
+                        Crowned with luxe floral accent, a graceful canopy draped with delicate fabric creates a romantic mood for a dream wedding. 
+                          Adorned with flowing floral décor and candle chandelier, it exudes a beautiful blend of modern and traditional look.
+
+                    </p>
+                </div>
+            </div>
+            <div class="bgimg-1">
+                <div class="caption">
+                    <span class="border">
+
+                        Happy wedding!
+
+                    </span>
+                </div>
+            </div>
+             <footer class="footer">
+  <div class="footer-left">
+      <h2> About the website</h2> <p class="about"><span>Realize your dream of having a spectacular wedding ceremony into reality with extravagant celebration and unforgettable memories. To do so, we, at MadeInHeaven, help you in creating an astounding decor of your choice, ranging from traditional to modern to outdoor to intimate to royal to beachy. Apart from impeccable decors, we also offer wedding services and wedding planning tools for smooth and simple operations. You can also find a curated list of handpicked professional artists to make your celebration filled with entertainment, ranging from music to dance to laughter. If you are looking for a fine destination for your wedding, we have maintained a detailed list of a variety of venues across the country. You can pick the most suitable one for a regal or natural or luxurious or traditional wedding. Making all of these facilities available to you at your fingertips, MadeInHeaven is a gateway to organizing your dream wedding.</span>
+    </p>
+    <div class="icons">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-google-plus"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+    </div>
+  </div>
+  <div class="footer-center">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>St.Joseph's College(Autonomous), 560027</span> Bengaluru, India</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> (+91) 734567789</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="#"> MadeInHeaven@gmail.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right">
+    <b>Website Name</b>
+    <p class="menu">
+      <a href="home.html"> Home</a> 
+      <a href="weddingservices.html"> Services</a> 
+      <a href="venues.html"> Venues</a> 
+      <a href="decor.html"> Decor</a> 
+      <a href="artists.html"> Artists</a> 
+      <a href="vendors.html"> Vendors</a>
+      <a href="aboutus.html"> AboutUs</a>
+      <a href="contactus.html"> Contact</a>
+    </p>
+    <p class="name"> Website Name &Copyright: 2019</p>
+  </div>
+</footer>
+        </body>
+    </html>
+
